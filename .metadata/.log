@@ -5078,3 +5078,2232 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jst.server.core 4 0 2023-02-17 14:37:52.210
 !MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.jface 2 0 2023-02-17 15:13:56.283
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-17 15:13:56.283
+!MESSAGE A conflict occurred for CTRL+INSERT:
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,Copy,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm.terminal.copy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.copy,Copy,
+		Copy the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.copy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(AnsiConsole.command.copy_without_escapes,Copy Text Without ANSI Escapes,
+		Copy the console content to clipboard, removing the escape sequences,
+		Category(AnsiConsole.command.categoryid,ANSI Support Commands,null,true),
+		WorkbenchHandlerServiceHandler("AnsiConsole.command.copy_without_escapes"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.console.ConsoleView,,,system)
+!SESSION 2023-02-18 05:05:39.124 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\javaWeb -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-18 05:05:44.397
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 05:05:44.398
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 05:05:44.398
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-18 05:05:50.362
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82108'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:06.984
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:07.179
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:07.275
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:07.853
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:08.045
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:08.141
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:08.931
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:09.229
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:09.637
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:10.349
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:10.941
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:11.253
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:11.499
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:11.609
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:12.233
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:12.604
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:12.926
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:13.233
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:13.331
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:13.923
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:14.239
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:14.436
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:14.535
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:15.206
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:15.757
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:15.940
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:16.032
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:16.658
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:17.002
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:17.191
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:17.286
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:17.981
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:18.298
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:18.490
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:18.587
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:19.251
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:19.787
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:20.022
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:20.118
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:20.736
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:21.080
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:21.271
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:21.367
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:21.994
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:22.354
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:22.550
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:22.650
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:23.327
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:23.848
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:24.038
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:24.134
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:24.795
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.6.1.r202207070546, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:33.023
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:36.235
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:37.655
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:43.292
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:46.017
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:47.403
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:15:51.661
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:16:35.813
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:16:36.691
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:16:36.936
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:53.315
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:53.820
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:53.916
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:55.037
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:55.391
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:55.490
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:55.836
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:56.127
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:56.358
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:56.449
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:56.784
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:57.062
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:57.291
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:57.391
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:57.709
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:58.003
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:58.209
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:58.446
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:58.542
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:58.972
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:59.522
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:59.724
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:17:59.819
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:00.251
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:00.619
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:00.823
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:00.925
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:01.259
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:01.809
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:01.995
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:02.094
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:02.717
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:03.072
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:03.269
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:03.370
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:04.055
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:04.337
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:04.520
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:04.611
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:05.302
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:05.631
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:05.827
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:05.928
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:06.308
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:06.610
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:06.803
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:06.900
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:07.590
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:07.883
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:08.072
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:08.166
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:08.864
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.6.1.r202207070546, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:14.529
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:17.446
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:18.804
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:22.875
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:25.671
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:27.195
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:29.923
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:58.948
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:18:59.931
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:00.166
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:07.715
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:11.842
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/updates/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:14.677
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/updates/latest/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:16.090
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/updates/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:20.241
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/drops/nightly/N20180202-232207, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:24.454
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:27.245
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:28.646
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:32.756
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:35.608
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:36.971
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:41.143
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:45.232
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:49.518
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:53.765
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/milestone, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:56.523
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/milestone/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:19:58.012
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/milestone, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:02.635
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S911-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:06.892
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S909-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:11.066
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S908-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:15.278
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20210519-025928-1.2.2-M1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:19.432
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20210406-153234/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:23.539
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20191129-202804-1.2.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:27.842
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20191118-183434-1.2.1-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:32.068
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170529-101518-1.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:36.241
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170525-115740-1.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:40.995
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170523-143239-1.1-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:45.144
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170516-113326-1.1-M7, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:49.303
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/nightly, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:52.448
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/nightly/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:53.851
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/nightly, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:20:58.141
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20230217-044157/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:21:02.349
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20230216-044136/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:21:06.589
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20230215-044200/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:21:10.748
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20230214-044118/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:21:14.986
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20230213-044141/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-18 05:21:32.917
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,javax.xml.bind,2.2.0.v201105210648 have severely compromised security. Please report this concern to the artifact provider.
+!SESSION 2023-02-18 05:28:24.209 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/javaWeb/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.springframework.ide.eclipse.boot.dash.cf 4 0 2023-02-18 05:28:47.723
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.boot.dash.cf [976]
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.boot.dash.cf [osgi.identity; osgi.identity="org.springframework.ide.eclipse.boot.dash.cf"; type="osgi.bundle"; version:Version="4.17.2.202301310846"; singleton:="true"] because it is exposed to package 'org.bouncycastle.asn1' from resources org.bouncycastle.bcprov [osgi.identity; type="osgi.bundle"; version:Version="1.71.0.v20220723-1943"; osgi.identity="org.bouncycastle.bcprov"] and bcprov [osgi.identity; osgi.identity="bcprov"; type="osgi.bundle"; version:Version="1.72.0"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.boot.dash.cf [osgi.identity; osgi.identity="org.springframework.ide.eclipse.boot.dash.cf"; type="osgi.bundle"; version:Version="4.17.2.202301310846"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.bouncycastle.bcprov)(bundle-version>=1.59.0))
+     |
+    provide: osgi.wiring.bundle: org.bouncycastle.bcprov
+  org.bouncycastle.bcprov [osgi.identity; type="osgi.bundle"; version:Version="1.71.0.v20220723-1943"; osgi.identity="org.bouncycastle.bcprov"]
+
+Chain 2:
+  org.springframework.ide.eclipse.boot.dash.cf [osgi.identity; osgi.identity="org.springframework.ide.eclipse.boot.dash.cf"; type="osgi.bundle"; version:Version="4.17.2.202301310846"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.bouncycastle.bcpkix)(bundle-version>=1.59.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.72.0.v20221013-1810"; osgi.wiring.bundle="org.bouncycastle.bcpkix"
+  org.bouncycastle.bcpkix [osgi.identity; osgi.identity="org.bouncycastle.bcpkix"; type="osgi.bundle"; version:Version="1.72.0.v20221013-1810"]
+    import: (&(osgi.wiring.package=org.bouncycastle.asn1)(&(version>=1.72.0)(!(version>=1.73.0))))
+     |
+    export: osgi.wiring.package: org.bouncycastle.asn1
+  bcprov [osgi.identity; osgi.identity="bcprov"; type="osgi.bundle"; version:Version="1.72.0"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jface 2 0 2023-02-18 05:28:51.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 05:28:51.896
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-18 05:28:51.896
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-18 05:28:57.063
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82108'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-02-20 01:01:22.188 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-02-20 01:02:10.362
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-20 01:02:10.363
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-20 01:02:10.363
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-20 01:02:19.749
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82108'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-02-20 01:14:21.264
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:36.228
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:38.021
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:38.230
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:38.312
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:38.869
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:39.035
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:39.346
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:39.582
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:39.655
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:39.728
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.143
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.273
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.407
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.686
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.800
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:42.872
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:43.246
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:43.596
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:43.796
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.013
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.137
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.200
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.313
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.736
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:44.891
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:45.016
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:45.180
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:45.264
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:45.337
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:45.614
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:46.754
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:46.888
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:48.624
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:49.690
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:49.793
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:49.888
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:49.979
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:50.176
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:50.602
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:50.900
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:51.139
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:51.386
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:51.562
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:51.697
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:51.915
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:52.039
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:52.214
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:52.286
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:53.248
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:53.445
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:53.529
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:53.661
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:53.786
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:54.448
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.255
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.431
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.691
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.762
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.845
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:55.969
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:56.224
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:56.528
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:56.736
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:57.097
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:57.739
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:57.903
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:58.090
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:58.173
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:59.321
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:59.477
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:59.621
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:59.849
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:15:59.973
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:00.066
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:00.139
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:00.852
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:01.276
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:02.001
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:02.187
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:02.405
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:02.560
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:02.663
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:03.406
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:03.749
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:03.987
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:04.226
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:04.918
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:05.094
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:05.207
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:05.321
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:05.611
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:06.469
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:07.814
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:07.980
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:08.518
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:08.695
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:09.449
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:09.708
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:09.821
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:10.163
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:11.904
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:12.687
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.287
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.602
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.671
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.785
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.846
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.848
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.853
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:13.973
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.013
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.016
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.021
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.197
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.198
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.207
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.621
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.683
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.849
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.911
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.913
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:14.918
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.015
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.161
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.221
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.223
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.230
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.315
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.378
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.470
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.472
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.477
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.656
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.658
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:15.664
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:16.008
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:16.142
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:16.928
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:17.115
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:17.581
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:17.725
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:17.818
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:18.056
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:18.170
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:19.370
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:19.691
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:19.795
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:20.841
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:20.977
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:21.068
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:21.544
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:22.547
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:22.877
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:23.011
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:23.229
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:23.229
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:25.827
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:26.126
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:26.260
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:26.353
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:26.498
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:28.319
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:28.588
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:28.981
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:29.768
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:29.923
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:30.628
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.071
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.206
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.288
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.349
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.577
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.806
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:31.920
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:34.518
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:34.692
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:34.775
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:34.783
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:35.294
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:35.531
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:38.789
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:39.007
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:39.224
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:39.669
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:39.981
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:41.717
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:41.841
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:42.090
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:42.162
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:42.255
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:43.546
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:43.817
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:44.314
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:44.502
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:45.085
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:47.761
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.162
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.255
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.504
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.661
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.844
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:48.929
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:49.249
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:49.250
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.394
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.726
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.807
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.932
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.973
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.975
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:52.980
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.047
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.161
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.163
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.169
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.221
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.335
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.418
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.501
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.503
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.510
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.717
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.873
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:53.997
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.071
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.174
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.235
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.317
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.400
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.402
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.408
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.660
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:54.661
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:56.433
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:58.001
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:58.114
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:58.259
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:58.413
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:59.027
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:59.160
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:59.294
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:59.418
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:16:59.864
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:00.434
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:00.454
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:00.547
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:01.032
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:01.176
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:01.684
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:02.284
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:02.398
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:02.598
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:02.600
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:04.477
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:04.693
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:04.787
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:04.953
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:05.205
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:05.207
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:06.369
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:06.494
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:06.648
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:06.956
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:06.957
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:10.373
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:10.497
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:10.829
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:10.984
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:12.773
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:12.855
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:12.970
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:12.979
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:13.509
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:13.632
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:13.767
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:13.860
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:14.051
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:14.056
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.091
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.360
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.443
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.526
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.618
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.731
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.733
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.743
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.806
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.908
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.911
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.919
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:15.991
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:16.384
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:16.386
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:17.781
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:17.906
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:18.846
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.042
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.156
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.363
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.476
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.579
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.675
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.735
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.809
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.809
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.819
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.892
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.973
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.976
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:19.988
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.035
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.149
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.151
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.157
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.253
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:20.325
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:21.251
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:21.252
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:22.808
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:24.091
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:24.153
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:24.405
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:24.407
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:26.381
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:27.413
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:27.681
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:27.786
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:28.739
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:28.741
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:29.904
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:29.998
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:30.225
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:30.467
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:30.470
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:31.188
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:31.270
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:31.471
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:31.473
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:32.750
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:34.032
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:34.147
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:34.250
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:34.343
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:34.550
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:35.052
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:35.823
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:35.957
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:36.062
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:36.187
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:36.650
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:36.867
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:37.054
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:37.200
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:37.344
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:37.477
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:38.295
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:38.492
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.216
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.363
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.454
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.559
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.800
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:39.802
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.120
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.224
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.337
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.419
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.421
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.430
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.472
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.639
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.709
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.711
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.722
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.792
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.794
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.801
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.866
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.948
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:41.999
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:42.094
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:42.096
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:42.104
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:42.961
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.044
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.232
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.234
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.242
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.292
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.851
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.853
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:43.864
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:44.151
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:44.724
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:45.852
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:49.381
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:49.531
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:49.647
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:49.769
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:52.864
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.317
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.475
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.607
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.701
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.705
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.712
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:53.930
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.089
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.176
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.475
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.735
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.816
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:54.899
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:55.044
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:56.225
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:57.165
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:57.259
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:59.091
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:17:59.494
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:00.113
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:00.206
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:00.310
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:00.651
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:01.655
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:01.904
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:02.141
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.207
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.404
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.569
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.651
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.756
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:03.890
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:04.097
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:04.385
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:05.224
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:05.338
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:05.523
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:05.690
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:06.848
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:07.034
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:08.887
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:08.958
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:09.166
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:09.258
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:09.559
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:09.838
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.014
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.283
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.418
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.500
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.613
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:10.737
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:11.152
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:11.339
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:11.453
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:11.555
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:12.486
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:12.631
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:12.807
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.180
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.314
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.388
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.615
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.759
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:13.904
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.070
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.184
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.337
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.463
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.595
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:14.824
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:15.268
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:15.331
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:18:15.414
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:21:27.812
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:21:27.922
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:21:28.140
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-02-20 01:21:28.254
+!MESSAGE [Error]	Notification handler 'textDocument/didChange' failed with message: Debug Failure. False expression.
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-02-20 01:36:30.889
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-20 02:42:24.246
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/thymeleaf/thymeleaf-extras-eclipse-plugin/update-site/3.0.1/artifacts.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-02-20 02:42:24.642
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/thymeleaf/thymeleaf-extras-eclipse-plugin/update-site/3.0.1/content.jar
+!SESSION 2023-02-20 16:44:37.008 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-02-20 16:44:50.159
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-02-20 16:45:20.234
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-20 16:45:20.234
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-20 16:45:20.234
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-20 16:45:28.991
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82108'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-02-20 16:51:24.601
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.ui 2 2 2023-02-20 16:51:37.971
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2023-02-20 17:51:35.122
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2023-02-20 17:51:40.986
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
